@@ -1,0 +1,6 @@
+// Отримуємо атрибути з товару
+$attributes = $product->get_attributes();
+// Отримуємо назву атрибуту
+$attribute_name = wc_attribute_label($attribute->get_name());
+// Отримуємо значення атрибуту
+$attribute_value = $product->get_attribute($attribute->get_name());
