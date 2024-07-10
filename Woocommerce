@@ -4,3 +4,5 @@ $attributes = $product->get_attributes();
 $attribute_name = wc_attribute_label($attribute->get_name());
 // Отримуємо значення атрибуту
 $attribute_value = $product->get_attribute($attribute->get_name());
+// Отримуємо кількість постів
+$post_count = $query->found_posts;
